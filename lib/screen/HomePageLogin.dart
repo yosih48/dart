@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:my_project/screen/login.dart';
 
-
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title, this.number});
 
@@ -15,22 +14,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
+        appBar: AppBar(
+          title: Text(widget.title),
 
-        // backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        backgroundColor: Colors.blue,
-      ),
-      body: const login(title: 'sdsd',)
-
-  
-
-    );
+          // backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          backgroundColor: Colors.blue,
+        ),
+        body: const login(
+          title: 'sdsd',
+        ));
   }
 
   number(int? number) {}

@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 
 class login extends StatefulWidget {
-  const login({super.key, required this.title, this.number});
+  const login({super.key, this.title, this.number});
 
-  final String title;
+  final String? title;
   final int? number;
 
   @override
@@ -58,6 +58,7 @@ class _MyHomePageState extends State<login> {
                 child: const Text('Log In'),
                 onPressed: () {},
               )),
+
           TextButton(
             onPressed: () {},
             child: Text(
