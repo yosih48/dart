@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:my_project/screen/HomePage.dart';
+// import 'package:my_project/screen/HomePage.dart';
+import 'package:my_project/screen/HomePageLogin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,10 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page '),
+      home: const MyHomePage(title: 'Flutter Home Page ', number: 52),
     );
   }
 }
-
-
-  
