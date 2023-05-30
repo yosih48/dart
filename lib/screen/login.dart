@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 
 class login extends StatefulWidget {
-  const login({super.key, this.title, this.number});
+  const login({super.key});
 
-  final String? title;
-  final int? number;
+  // final String? title;
+  // final int? number;
 
   @override
   State<login> createState() => _MyHomePageState();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-// import 'package:my_project/screen/HomePage.dart';
-import 'package:my_project/screen/HomePageLogin.dart';
+import 'package:my_project/screen/HomePage.dart';
+// import 'package:my_project/screen/HomePageLogin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Login screen ', number: 52),
+      home: const MyHomePage(title: 'L ', number: 52),
     );
   }
 }
