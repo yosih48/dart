@@ -12,11 +12,13 @@ class Home extends StatelessWidget {
           title: Text('hello'),
           centerTitle: true,
           backgroundColor: Colors.red[600]),
-      body: Container(
-        padding: EdgeInsets.all(20.0),
-        margin: EdgeInsets.all(30.0),
-        color: Colors.grey[400],
-        child: Text('hello'),
+      body: Row(
+        children: <Widget>[
+          Text('hello'),
+        Container(
+          color: Colors,
+        ),
+        ],
       ),
 
       // Center(
@@ -46,3 +48,5 @@ class Home extends StatelessWidget {
     );
   }
 }
+
+
