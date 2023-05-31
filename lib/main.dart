@@ -12,12 +12,51 @@ class Home extends StatelessWidget {
           title: Text('hello'),
           centerTitle: true,
           backgroundColor: Colors.red[600]),
+      // body: Row(
+      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //   crossAxisAlignment: CrossAxisAlignment.start,
+      //   children: <Widget>[
+      //     Text('hello'),
+      //     Container(
+      //       color: Colors.cyan,
+      //       padding: EdgeInsets.all(30.0),
+      //       child: Text('container'),
+      //     ),
+      //   ],
+      // ),
+
       body: Row(
+        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        // crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Text('hello'),
-        Container(
-          color: Colors,
-        ),
+          Expanded(flex: 1, child: Image.asset('assets/space-1.jpg')),
+          Row(
+              // children: [Text('hello'), Text('world')],
+              ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: Text('1'),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text('2'),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text('3'),
+            ),
+          ),
         ],
       ),
 
@@ -48,5 +87,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
-
