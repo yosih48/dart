@@ -14,9 +14,10 @@ class _MyWidgetState extends State<MyWidget> {
       appBar: AppBar(
         title: Text('appbar'),
       ),
-      body: Column(
-        children: quotes.map((q) => cardFunc()).toList(),
-      ),
+      // body: Column(
+      //   children: quotes.map((q) => cardFunc()).toList(),
+      // ),
+      body: test(),
       drawer: Drawer(
         // Add a ListView to the drawer. This ensures the user can scroll
         // through the options in the drawer if there isn't enough vertical
@@ -116,7 +117,9 @@ Widget listView() {
         child: ListView(
           children: [
             const Text('hi'),
-            IconButton(onPressed: () {}, icon: Icon(Icons.balance))
+            IconButton(onPressed: () {}, icon: Icon(Icons.balance)),
+            Text('dsdsd'),
+            Text('dsdsd'),
           ],
         ),
       )
