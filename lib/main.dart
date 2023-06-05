@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:my_project/screen/LoginPage.dart';
 import 'package:my_project/screen/users.dart';
+import 'package:my_project/screen/usersCard.dart';
 
 // import 'package:my_project/screen/lesson4.dart';
 
@@ -30,8 +31,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)
       ),
-      home: const MyHomePage(title: 'Login page ', number: 52),
+      // home: const MyHomePage(title: 'Login page ', number: 52),
       // home: const MyWidget(),
+      home: const usersCard(),
     );
   }
 }
