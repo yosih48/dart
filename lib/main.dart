@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/users': (context) => users(),
+        // '/users': (context) => users(),
         // '/home': (context) => Home(),
         // '/location': (context) => chooseLocation()
       },
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const MyHomePage(title: 'Login page ', number: 52),
       // home: const MyWidget(),
-      home: const usersCard(),
+      home:  usersCard(),
     );
   }
 }

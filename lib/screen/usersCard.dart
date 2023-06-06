@@ -9,12 +9,12 @@ class usersCard extends StatelessWidget {
  final List<Users> _todos = <Users>[];
  final TextEditingController _textFieldController = TextEditingController();
 
- void _addTodoItem(String userName, String email) {
-    setState(() {
-      _todos.add(Users(name: userName, mail: email));
-    });
-    _textFieldController.clear();
-  }
+//  void _addTodoItem(String userName, String email) {
+//     setState(() {
+//       _todos.add(Users(name: userName, mail: email));
+//     });
+//     _textFieldController.clear();
+//   }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
